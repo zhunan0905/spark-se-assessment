@@ -1,5 +1,5 @@
 import os
-basedir = os.path.abspath(os.path.dirname("C:\Users\andyz\spark-se-assessment"))
+basedir = os.path.abspath(os.path.dirname(__file__))
 postgres_local_base = 'sqlite:///'
 database_name = 'diagnostic'
 
