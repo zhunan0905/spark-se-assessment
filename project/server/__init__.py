@@ -38,7 +38,7 @@ migrate = Migrate(app, db)
 def root_site():
     return "<p>It works!</p>"
 
-
+from project.server.models import User
 @app.route("/users/index")
 def all_users():
     users = User.query.all()
